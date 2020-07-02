@@ -1,8 +1,8 @@
 @echo off
-TITLE Saitama Robot
+TITLE Sara Robot
 py -3.7 --version
 IF "%ERRORLEVEL%" == "0" (
-    py -3.7 -m SaitamaRobot
+    py -3.7 -m SaraRobot
 ) ELSE (
-    py -m SaitamaRobot
+    py -m SaraRobot
 )
