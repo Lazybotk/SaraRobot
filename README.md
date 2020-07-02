@@ -5,13 +5,13 @@
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database.
 
-Originally a Marie fork, Saitama evolved further and was built to be more robust and more dedicated to Anime Chats. 
+Originally a Marie fork, Sara evolved further and was built to be more robust and more dedicated to Anime Chats. 
 
-Can be found on telegram as [SaitamaRobot](https://t.me/SaitamaRobot).
+Can be found on telegram as [Sararp2bot](https://t.me/Sarp2bot).
 
-The Support group can be reached out to at [One Punch Support](https://t.me/OnePunchSupport), where you can ask for help about @SaitamaRobot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [Sara Support](https://t.me/Sararprobot), where you can ask for help about @SaitamaRobot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
-News channel as at [One Punch Updates](https://t.me/OnePunchUpdates) 
+News channel as at [Sara Updates](https://t.me/SaraUpdateslogs) 
 
 ## How to setup/deploy.
 
