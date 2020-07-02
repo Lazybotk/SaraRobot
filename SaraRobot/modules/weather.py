@@ -3,8 +3,8 @@ from pyowm import timeutils, exceptions
 from telegram import Message, Chat, Update, Bot
 from telegram.ext import run_async
 
-from tg_bot import dispatcher, updater, API_WEATHER
-from tg_bot.modules.disable import DisableAbleCommandHandler
+from SaraRobot import dispatcher, updater, API_WEATHER
+from SaraRobot.modules.disable import DisableAbleCommandHandler
 
 @run_async
 def weather(bot, update, args):
@@ -62,7 +62,7 @@ def weather(bot, update, args):
 
 
 __help__ = """
- - /weather <city>: get weather info in a particular place
+  /weather<city>*:* get weather info in a particular place
 """
 
 __mod_name__ = "Weather"
