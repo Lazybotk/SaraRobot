@@ -557,13 +557,6 @@ def clock(bot: Bot, update: Update):
         time.sleep(0.5)
         
         
-@run_async
-def goodmorning(bot: Bot, update: Update):
-    msg = update.effective_message
-    reply_text = msg.reply_to_message.reply_text if msg.reply_to_message else msg.reply_text
-    reply_text(random.choice(fun_strings.GOODMORNING_STRINGS))
-
-
 
 
 __help__ = """
@@ -636,7 +629,6 @@ CRYMOJI_HANDLER = DisableAbleCommandHandler("crymoji", crymoji)
 CRYMOJI_ALIAS_HANDLER = DisableAbleCommandHandler("😭", crymoji)
 BMOJI_HANDLER = DisableAbleCommandHandler("🅱️", bmoji)
 BMOJI_ALIAS_HANDLER = DisableAbleCommandHandler("bmoji", bmoji)
-GOODMORNING_HANDLER = DisableAbleCommandHandler("goodmorning", goodmorning)
 
 dispatcher.add_handler(POLICE_HANDLER)
 dispatcher.add_handler(MOON_HANDLER)
@@ -675,7 +667,6 @@ dispatcher.add_handler(DEEPFRY_HANDLER)
 dispatcher.add_handler(KAN_HANDLER)
 dispatcher.add_handler(CHANGEMYMIND_HANDLER)
 dispatcher.add_handler(TRUMPTWEET_HANDLER)
-dispatcher.add_handler(GOOODMORNING_HANDLER)
 
 __mod_name__ = "Fun"
 __command_list__ = [
@@ -752,5 +743,4 @@ __handlers__ = [
     DEEPFRY_HANDLER,
     KAN_HANDLER,
     CHANGEMYMIND_HANDLER,
-    TRUMPTWEET_HANDLER
-    GOODMORNING_HANDLER]
+    TRUMPTWEET_HANDLER]
