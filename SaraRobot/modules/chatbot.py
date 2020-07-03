@@ -11,7 +11,7 @@ from telegram.ext import CommandHandler, MessageHandler, Filters, run_async
 from telegram.error import BadRequest, Unauthorized, RetryAfter
 from telegram.utils.helpers import mention_html
 
-from SaitamaRobot import dispatcher, AI_API_KEY, OWNER_ID, SUPPORT_CHAT
+from SaraRobot import dispatcher, AI_API_KEY, OWNER_ID, SUPPORT_CHAT
 import SaraRobot.modules.sql.chatbot_sql as sql
 from SaraRobot.modules.log_channel import gloggable
 from SaraRobot.modules.helper_funcs.filters import CustomFilters
