@@ -493,15 +493,7 @@ def devlist(bot: Bot, update: Update):
     update.effective_message.reply_text(reply, parse_mode=ParseMode.HTML)
 
 
-__help__ = f"""
- • `/heroes`*:* Lists all sara Association members.
- • `/dragons`*:* Lists all Dragon disasters.
- • `/demons`*:* Lists all Demon disasters.
- • `/tigers`*:* Lists all Tigers disasters.
- • `/wolves`*:* Lists all Wolf disasters.
- *Note:* These commands list users with special bot priveleges and can only be used by them.
- You can visit {SUPPORT_CHAT} to query more about these.
-"""
+
 
 SUDO_HANDLER = CommandHandler(("addsudo", "adddragon"), addsudo, pass_args=True)
 SUPPORT_HANDLER = CommandHandler(("addsupport", "adddemon"), addsupport, pass_args=True)
@@ -533,7 +525,7 @@ dispatcher.add_handler(SUPPORTLIST_HANDLER)
 dispatcher.add_handler(SUDOLIST_HANDLER)
 dispatcher.add_handler(DEVLIST_HANDLER)
 
-__mod_name__ = "Disasters"
+
 __handlers__ = [SUDO_HANDLER, SUPPORT_HANDLER, TIGER_HANDLER, WHITELIST_HANDLER, 
                 UNSUDO_HANDLER, UNSUPPORT_HANDLER, UNTIGER_HANDLER, UNWHITELIST_HANDLER,
                 WHITELISTLIST_HANDLER, TIGERLIST_HANDLER, SUPPORTLIST_HANDLER,
