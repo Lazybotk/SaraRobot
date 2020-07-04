@@ -593,6 +593,7 @@ __help__ = """
 • `/getsticker`*:* reply to a sticker to me to upload its raw PNG file.
 • `/kang`*:* reply to a sticker to add it to your pack.
 • /lyrics <song> returns the lyrics of that song.
+ • `/ud <word>`*:* Type the word or expression you want to search use.
 """
 
 """
