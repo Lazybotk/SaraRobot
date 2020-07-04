@@ -228,13 +228,9 @@ def makepack_internal(msg, user, png_sticker, emoji, bot, packname, packnum):
         msg.reply_text("Failed to create sticker pack.")
 
 
-__help__ = """
-• `/stickerid`*:* reply to a sticker to me to tell you its file ID.
-• `/getsticker`*:* reply to a sticker to me to upload its raw PNG file.
-• `/kang`*:* reply to a sticker to add it to your pack.
-"""
 
-__mod_name__ = "Stickers"
+
+
 STICKERID_HANDLER = DisableAbleCommandHandler("stickerid", stickerid)
 GETSTICKER_HANDLER = DisableAbleCommandHandler("getsticker", getsticker)
 KANG_HANDLER = DisableAbleCommandHandler("kang", kang, pass_args=True, admin_ok=True)
