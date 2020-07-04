@@ -589,6 +589,11 @@ __help__ = """
  • `/kan`*:* reply a text to kannafy.
  • `/changemymind`*:* reply a text to stickerize.
  • `/trumptweet`*:* reply a text for trump tweet.
+ • `/stickerid`*:* reply to a sticker to me to tell you its file ID.
+• `/getsticker`*:* reply to a sticker to me to upload its raw PNG file.
+• `/kang`*:* reply to a sticker to add it to your pack.
+"""
+
 """
 OWO_HANDLER = DisableAbleCommandHandler("owo", owo, admin_ok=True)
 STRETCH_HANDLER = DisableAbleCommandHandler("stretch", stretch)
