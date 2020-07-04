@@ -589,11 +589,6 @@ __help__ = """
  • `/kan`*:* reply a text to kannafy.
  • `/changemymind`*:* reply a text to stickerize.
  • `/trumptweet`*:* reply a text for trump tweet.
- • `/stickerid`*:* reply to a sticker to me to tell you its file ID.
-• `/getsticker`*:* reply to a sticker to me to upload its raw PNG file.
-• `/kang`*:* reply to a sticker to add it to your pack.
-• /lyrics <song> returns the lyrics of that song.
- • `/ud <word>`*:* Type the word or expression you want to search use.
 """
 
 """
