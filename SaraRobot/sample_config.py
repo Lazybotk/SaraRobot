@@ -17,8 +17,8 @@ class Config(object):
     OWNER_USERNAME = "YOUR USERNAME HERE"  #Just write it without the @ ex "lazykilller"
     SUPPORT_CHAT = "No Support Chat exists" # Your telegram support chat username, must have the "@" Example: @MyBotSupportGroupChat
 
-    # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
+    # RECOMMEND
+ty    DATABASE_URI = 'mongodb+srv://userbot:userbot@cluster0.6q8w1.mongodb.net/<dbname>?retryWrites=true&w=majority'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     GBAN_LOGS = None #Channel ID here with the hyphen like -123456789
     LOAD = []
