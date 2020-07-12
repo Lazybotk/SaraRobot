@@ -31,10 +31,10 @@
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
          "value": "ANYTHING"
       },
-      "SQLALCHEMY_DATABASE_URI": {
+      "DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
          "required": false,
-         "value": "sqldbtype://username:pw@hostname:port/db_name"
+         "value": "mongodb+srv://userbot:userbot@cluster0.6q8w1.mongodb.net/<dbname>?retryWrites=true&w=majortity"
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
